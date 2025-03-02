@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/Home', (req, res) => {
-    res.json({ "Message": "Hi, my name is Kartikay Rattan. Welcome to my practice for backend CA.", "Data": creator });
+    res.status(200).json({ "Message": "Hi, my name is Kartikay Rattan. Welcome to my practice for backend CA.", "Data": creator });
 });
 
 //  alternate method 
